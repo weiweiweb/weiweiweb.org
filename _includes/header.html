@@ -1,3 +1,16 @@
 <div class="page-header">
   <h1><a href="/">{{ site.title }}</a> {% if page.title and page.title != site.title %} <small>{{ page.title }}. {% if page.tagline %} {{ page.tagline }}. {% endif %} </small> {% endif %}</h1>
+  
+  <div class="btn-group">
+  <button class="btn"><i class="icon-flag"></i></button>
+  <button class="btn dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu pull-right">
+    {% for cat in site.categories %}
+	  <li><a href="/{{ cat[0] }}">{{ cat[0] }}</a></li>
+	{% endfor %}
+  </ul>
+</div>
+  
 </div>
