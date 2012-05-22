@@ -4,10 +4,11 @@ title: "艾未未在维基百科"
 description: "艾未未一个维基百科的文章。"
 category: web
 tags: [ aiweiwei, wikipedia, article, community, help, participate, information ]
-language: zh
 ---
 
-<iframe src="http://zh.wikipedia.org/wiki/%E8%89%BE%E6%9C%AA%E6%9C%AA" width="940" height="528" frameborder="0"> </iframe>
+&#x20;<iframe src="http://zh.wikipedia.org/wiki/%E8%89%BE%E6%9C%AA%E6%9C%AA" width="940" height="528" frameborder="0"> </iframe>
+
+- - -
 
 [艾未未在维基百科](http://zh.wikipedia.org/wiki/%E8%89%BE%E6%9C%AA%E6%9C%AA).
 
