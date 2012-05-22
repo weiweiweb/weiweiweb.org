@@ -1,4 +1,5 @@
 auto: true
 title: WeiWeiWeb
+permalink: pretty
 exclude: README.md
 category_dir: ''
