@@ -1,16 +1,49 @@
 <!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	
+		<title>{{site.title}} - {{ page.title }}</title>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+		<meta name="author" content="{{ site.author.name }}">
+		
+		<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/assets/css/style.css" rel="stylesheet">
+	
+		<!--[if lt IE 9]>
+		<script src="/assets/js/html5shiv.js"></script>
+		<![endif]-->
+		
+		
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
 
-<head>
+	</head>
 
-	<title>{{site.title}} - {{ page.title }}</title>
+	<body>
 
-</head>
+	<div class="container">
 
-<body>
+		<div class="content">
 
-	{{ content }}
+			{% include header.html %}
 
-</body>
+			<div class="row">
+				<div class="span12">
+					{{ content }}
+				</div>
+			</div>
+	
+		</div>
+			
+			{% include footer.html %}
+	</div>
+
+	</body>
 
 </html>
 

@@ -4,8 +4,6 @@ title:
 tagline: 
 ---
 
-<h1> {{ site.title }} </h1>
-
 <h5>Languages</h5>
 <ul>
 {% for cat in site.categories %}
@@ -14,7 +12,7 @@ tagline:
 </ul>
 
 <h5> Articles </h5>
-{% for post in site.categories.en %}
+{% for post in site.categories.en limit:1%}
 
   {{ post.title }}
 	

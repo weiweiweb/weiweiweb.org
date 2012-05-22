@@ -6,7 +6,6 @@ category: web
 tags: [ aiweiwei, wikipedia, article, community, help, participate, information ]
 language: en
 ---
-{% include JB/setup %}
 
 <iframe src="http://en.wikipedia.org/wiki/Ai_Weiwei" width="940" height="528" frameborder="0"> </iframe>
 

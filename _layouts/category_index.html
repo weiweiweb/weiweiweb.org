@@ -2,8 +2,6 @@
 layout: page
 ---
 
-<h1> {{ site.title }} </h1>
-
 <h5>Languages</h5>
 <ul>
 {% for cat in site.categories %}
@@ -12,7 +10,7 @@ layout: page
 </ul>
 
 <h5> Articles </h5>
-{% for post in site.categories[page.category] %}
+{% for post in site.categories[page.category] limit:1%}
 
   <p>{{ post.title }}</p>
 	

@@ -6,7 +6,6 @@ category: web
 tags: [ aiweiwei, wikipedia, article, community, help, participate, information ]
 language: zh
 ---
-{% include JB/setup %}
 
 <iframe src="http://zh.wikipedia.org/wiki/%E8%89%BE%E6%9C%AA%E6%9C%AA" width="940" height="528" frameborder="0"> </iframe>
 

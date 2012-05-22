@@ -1,3 +1,4 @@
 auto: true
 title: WeiWeiWeb
+exclude: README.md
 category_dir: ''
