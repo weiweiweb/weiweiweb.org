@@ -2,9 +2,8 @@
 layout: page
 ---
 
-<h5> Articles </h5>
 {% for post in site.categories[page.category] limit:1%}
 
-  <p>{{ post.title }}</p>
-	
+ {{ post.content | markdownify }}
+
 {% endfor %}
