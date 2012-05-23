@@ -74,7 +74,7 @@ module Jekyll
       # Insert post entires
       @posts.each do |post|
         entry = feed.entries.new
-        entry.id = post.id
+        entry.id = @site.config['url'] + post.id
         entry.title = post.data['title']
         entry.updated = post.date
 
@@ -86,9 +86,9 @@ module Jekyll
           category.term = c
         end
 
-        post.transform
-        entry.content = post.content
-        entry.content.type = 'html'
+        #post.transform
+        entry.content = post.data['description']
+        entry.content.type = 'text'
       end
 
       feed
