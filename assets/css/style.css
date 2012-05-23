@@ -46,6 +46,41 @@ html, body {
   border: 0;
 }
 
+.share {
+  float: none;
+  text-align: center;
+  display: inline-block;
+  min-height: 35px;
+  width: 100%;
+}
+
+.fb-like {
+  float: none;
+  display: inline-block;
+  padding-right: 56px;
+}
+
+.twitter-share-button {
+  padding-right: 28px;
+  margin-bottom: -1px;
+}
+
+
+#___plusone_0 {
+
+}
+
+.share a.feed-icon {
+  padding-right: 4px;
+  float: none;
+  vertical-align: top;
+}
+
+.share .feed-icon img {
+  margin-top: 2px;
+  vertical-align: top;
+}
+
 
 /* tag_box ======================================================== */
 

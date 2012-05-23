@@ -2,4 +2,12 @@ auto: true
 title: WeiWeiWeb
 permalink: pretty
 exclude: README.md
+
 category_dir: ''
+category_title_prefix: ''
+
+url: http://weiweiweb.org
+author :
+  name : Ai Weiwei
+  github : aiweiwei
+  twitter : aiww

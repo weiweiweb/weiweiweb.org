@@ -1,12 +1,14 @@
 ---
 layout: page
-title: 
+title: Home
 tagline: 
 ---
 
-{% for post in site.categories.en limit:1%}
+{% for page in site.categories.en limit:1%}
 
-  {{ post.content }}
+  {{ page.content }}
+  
+  {% include endmatter.html %}
 	
 {% endfor %}
 

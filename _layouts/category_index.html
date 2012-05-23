@@ -2,8 +2,10 @@
 layout: page
 ---
 
-{% for post in site.categories[page.category] limit:1%}
+{% for page in site.categories[page.category] limit:1%}
 
- {{ post.content | markdownify }}
+ {{ page.content | markdownify }}
+  
+ {% include endmatter.html %}
 
 {% endfor %}
