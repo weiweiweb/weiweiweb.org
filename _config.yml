@@ -1,5 +1,6 @@
 auto: true
 title: WeiWeiWeb
+name: WeiWeiWeb
 permalink: pretty
 exclude: README.md
 
