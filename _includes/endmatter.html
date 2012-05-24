@@ -1,5 +1,18 @@
-<div class="date"><strong>Published</strong> <span>{{ page.date | date_to_long_string }}</span></div>
+<div class="date"><strong>Published</strong> <span><a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a></span></div>
   
   <hr />
   
   {% include sharing.html %}
+  
+  <ul class="pager">
+  {% if page.previous %}
+  <li class="previous"><a href="{{ site.url }}{{ page.previous.url }}">&larr; {{ page.previous.title }}</a></li>
+  {% else %}
+  <li class="previous disabled"><a href="#">&larr; Older</a></li>
+  {% endif %}
+  {% if page.next %}
+  <li class="next"><a href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &rarr;</a></li>
+  {% else %}
+  <li class="next disabled"><a href="#">Newer &rarr;</a></li>
+  {% endif %}
+  </ul>
