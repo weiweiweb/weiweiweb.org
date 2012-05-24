@@ -1,6 +1,6 @@
 auto: true
-title: WeiWeiWeb
-name: WeiWeiWeb
+title: WeiweiWeb
+name: WeiweiWeb
 permalink: pretty
 exclude: README.md
 
@@ -12,3 +12,7 @@ author :
   name : Ai Weiwei
   github : aiweiwei
   twitter : aiww
+  
+languages :
+  en: English
+  zh: 中文
