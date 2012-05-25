@@ -3,6 +3,9 @@ layout: post
 title: "Ai Weiwei on Wikipedia"
 description: "Ai WeiWei has a Wikipedia entry."
 tags: [ aiweiwei, wikipedia, article, community, help, participate, information ]
+series:
+  name:   English
+  index:  3
 ---
 
 &#x20;<iframe src="http://en.wikipedia.org/wiki/Ai_Weiwei" width="940" height="528" frameborder="0"> </iframe>
