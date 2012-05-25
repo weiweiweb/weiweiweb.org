@@ -11,9 +11,8 @@ url: http://weiweiweb.org
 author :
   name : Ai Weiwei
   github : aiweiwei
+  repository: weiweiweb
   twitter : aiww
-  
-repo: https://github.com/aiweiwei/weiweiweb
   
 languages :
   en: English
