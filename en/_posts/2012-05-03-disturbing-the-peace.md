@@ -6,6 +6,7 @@ tags: [ aiweiwei, video, multimedia, artist, china, documentary ]
 series:
   name:   English
   index:  1
+slug: disturbing-the-peace
 ---
 
 &#x20;<iframe src="http://player.vimeo.com/video/42394199" width="940" height="528" frameborder="0"> </iframe>

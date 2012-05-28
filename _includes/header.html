@@ -9,7 +9,11 @@
   <ul class="dropdown-menu pull-right">
     {% for cat in site.categories %}
       {% capture language %}{{ cat | first }}{% endcapture %}
-	  <li><a href="/{{ language }}">{{ site.languages.[language] }}</a></li>
+      {% if page.date != null %}
+	  <li><a href="/{{ language }}/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}/{{ page.slug }}">{{ site.languages.[language] }}</a></li>
+	  {% else %}
+	  <li><a href="/{{ language }}/">{{ site.languages.[language] }}</a></li>
+	  {% endif %}
 	{% endfor %}
   </ul>
 </div>
