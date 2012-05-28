@@ -37,10 +37,10 @@ The site has the following requirements:
 
 After you install the software you can read [how to use Jekyll](https://github.com/mojombo/jekyll/wiki/Usage).
 
-If you want to use Jekyll to generate your own copy of the site and host it on your own, you should first edit the <code>_config.yml</code> and change the line that reads <code>url: http://weiweiweb.org</code> to point to the domain where you want to host this site.
-
 ### Help Translate
 
 You can help us translate this site. You can find all the posts inside the <code>en/\_posts</code> folder or [view it online](https://github.com/aiweiwei/weiweiweb/tree/master/en/_posts). To translate the posts into your own language, make a copy of the <code>en</code> folder and rename it to the [two-letter language code](http://en.wikipedia.org/wiki/ISO_639-1) for your language. Then open up each document inside the <code>_posts</code> folder and translate the title, description and main content.
+
+If you are adding a new language, please edit <code>_config.yml</code> and add the langauge code and language name in the <code>languages:</code> list.
 
 If you know how to use git and Github, you can commit your translations and make a pull request. If not, you can just send us the translations or post them to our [issue tracker](https://github.com/aiweiwei/weiweiweb/issues).
