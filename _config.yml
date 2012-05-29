@@ -1,8 +1,9 @@
 auto: true
-title: WeiweiWeb
-name: WeiweiWeb
+title: Ai Weiwei
 permalink: pretty
 exclude: README.md
+
+keywords: ['Ai Weiwei', 'art', 'china', 'beijing']
 
 category_dir: ''
 category_title_prefix: ''
@@ -11,7 +12,6 @@ url: http://weiweiweb.org
 author :
   name : Ai Weiwei
   github : aiweiwei
-  repository: weiweiweb
   twitter : aiww
   
 languages :
