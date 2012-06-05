@@ -7,11 +7,11 @@ We are all fans of Ai Weiwei and we wanted to make a nice website that anyone ca
 
 ## What
 
-This is a simple website based upon some [free shared technology](https://github.com/aiweiwei/weiweiweb) that allows anyone to share the simple message on his or her web hosting space with the simple use of git.
+This is a simple website based upon some [free shared technology](https://github.com/weiweiweb/weiweiweb.org) that allows anyone to share the simple message on his or her web hosting space with the simple use of git.
 
 ## Where
 
-This site is hosted at <http://weiweiweb.org> and many more sites will be coming online in the coming days and weeks. [Clone our site](https://github.com/aiweiwei/weiweiweb)!
+This site is hosted at <http://weiweiweb.org> and many more sites will be coming online in the coming days and weeks. [Clone our site](https://github.com/weiweiweb/weiweiweb.org)!
 
 ## When
 
@@ -27,7 +27,7 @@ We are using technology like <http://github.com>, [Jekyll](http://jekyllrb.com/)
 
 ### Get the code
 
-You can [Clone us on Github](https://github.com/aiweiwei/weiweiweb) or [Download](https://github.com/aiweiwei/weiweiweb/zipball/master) the code.
+You can [Clone us on Github](https://github.com/weiweiweb/weiweiweb.org) or [Download](https://github.com/weiweiweb/weiweiweb.org/zipball/master) the code.
 
 The site has the following requirements:
 
@@ -39,8 +39,8 @@ After you install the software you can read [how to use Jekyll](https://github.c
 
 ### Help Translate
 
-You can help us translate this site. You can find all the posts inside the <code>en/\_posts</code> folder or [view it online](https://github.com/aiweiwei/weiweiweb/tree/master/en/_posts). To translate the posts into your own language, make a copy of the <code>en</code> folder and rename it to the [two-letter language code](http://en.wikipedia.org/wiki/ISO_639-1) for your language. Then open up each document inside the <code>_posts</code> folder and translate the title, description and main content.
+You can help us translate this site. You can find all the posts inside the <code>en/\_posts</code> folder or [view it online](https://github.com/weiweiweb/weiweiweb.org/tree/master/en/_posts). To translate the posts into your own language, make a copy of the <code>en</code> folder and rename it to the [two-letter language code](http://en.wikipedia.org/wiki/ISO_639-1) for your language. Then open up each document inside the <code>_posts</code> folder and translate the title, description and main content.
 
 If you are adding a new language, please edit <code>_config.yml</code> and add the langauge code and language name in the <code>languages:</code> list.
 
-If you know how to use git and Github, you can commit your translations and make a pull request. If not, you can just send us the translations or post them to our [issue tracker](https://github.com/aiweiwei/weiweiweb/issues).
+If you know how to use git and Github, you can commit your translations and make a pull request. If not, you can just send us the translations or post them to our [issue tracker](https://github.com/weiweiweb/weiweiweb.org/issues).
