@@ -1,21 +1,18 @@
-<div class="page-header">
-  <h1><a href="/{{ page.categories }}">{{ site.title }}</a> {% if page.title and page.title != site.title %} <small>{{ page.title }}. {% if page.tagline %} {{ page.tagline }}. {% endif %} </small> {% endif %}</h1>
+<header>
+
+	<nav>
+
+	<ul class="nav">
+		<li><a href="/{{ page.categories }}">{{ site.title }}</a></li><li class="active"><a href="{{page.url}}">{{ page.title }}</a></li>
+	</ul>
+	
+	<ul class="nav right">
+	{% for langs in site.categories %}{% capture category %}{{ page.categories | first }}{% endcapture %}{% capture language %}{{ langs | first }}{% endcapture %}{% if page.date != null %}<li {% if category == language %} class="active"{% endif %}><a href="/{{ language }}/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}/{{ page.slug }}">{{ site.languages.[language] }}</a></li>{% else %}<li><a href="/{{ language }}/">{{ site.languages.[language] }}</a></li>{% endif %}{% endfor %}
+	</ul>
+
+	</nav>
+
+</nav>
+
   
-  <div class="btn-group">
-  <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="icon-flag"></i>
-  
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu pull-right">
-    {% for cat in site.categories %}
-      {% capture language %}{{ cat | first }}{% endcapture %}
-      {% if page.date != null %}
-	  <li><a href="/{{ language }}/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}/{{ page.slug }}">{{ site.languages.[language] }}</a></li>
-	  {% else %}
-	  <li><a href="/{{ language }}/">{{ site.languages.[language] }}</a></li>
-	  {% endif %}
-	{% endfor %}
-  </ul>
-</div>
-  
-</div>
+</header>
