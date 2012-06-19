@@ -7,6 +7,7 @@ series:
   name:   Chinese
   index:  3
 slug: aiweiwei-wikipedia
+published: false
 ---
 
 &#x20;<iframe src="http://zh.wikipedia.org/wiki/%E8%89%BE%E6%9C%AA%E6%9C%AA" width="940" height="528" frameborder="0"> </iframe>
