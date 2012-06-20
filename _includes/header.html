@@ -2,9 +2,23 @@
 
 	<nav>
 
+{% if page.title == 'Home' or page.title == 'en' %}
+	{% for page in site.categories.en limit:1 %}
+		<ul class="nav">
+			<li><a href="/{{ page.categories }}">{{ site.title }}</a></li><li class="active"><a href="{{page.url}}">{{ page.title }}</a></li>
+		</ul>
+	{% endfor %}
+{% elsif  page.title == 'zh' %}
+	{% for page in site.categories.zh limit:1 %}
+		<ul class="nav">
+			<li><a href="/{{ page.categories }}">{{ site.title }}</a></li><li class="active"><a href="{{page.url}}">{{ page.title }}</a></li>
+		</ul>
+	{% endfor %}
+{% else %}
 	<ul class="nav">
 		<li><a href="/{{ page.categories }}">{{ site.title }}</a></li><li class="active"><a href="{{page.url}}">{{ page.title }}</a></li>
 	</ul>
+{% endif %}
 	
 	<ul class="nav right">
 	{% for langs in site.categories %}{% capture category %}{{ page.categories | first }}{% endcapture %}{% capture language %}{{ langs | first }}{% endcapture %}{% if page.date != null %}<li {% if category == language %} class="active"{% endif %}><a href="/{{ language }}/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}/{{ page.slug }}">{{ site.languages.[language] }}</a></li>{% else %}<li><a href="/{{ language }}/">{{ site.languages.[language] }}</a></li>{% endif %}{% endfor %}
