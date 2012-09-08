@@ -7,7 +7,7 @@ series:
   name:   English
   index:  3
 slug: aiweiwei-wikipedia
-published: false
+published: true
 ---
 
 &#x20;<iframe src="http://en.wikipedia.org/wiki/Ai_Weiwei" width="940" height="528" frameborder="0"> </iframe>
